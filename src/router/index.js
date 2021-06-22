@@ -34,6 +34,12 @@ const routes = [
         /* webpackChunkName: "weight-tracker" */ "../views/WeightTracker.vue"
       ),
   },
+  {
+    path: "/todo-list",
+    name: "Todo list",
+    component: () =>
+      import(/* webpackChunkName: "to-do-list" */ "../views/TodoList.vue"),
+  },
 ];
 
 const router = new VueRouter({

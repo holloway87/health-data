@@ -21,6 +21,11 @@
               Weight tracker
             </router-link>
           </li>
+          <li class="c-header-nav-item px-3">
+            <router-link to="/todo-list" class="c-header-nav-link">
+              Todo list
+            </router-link>
+          </li>
         </ul>
       </div>
     </header>
