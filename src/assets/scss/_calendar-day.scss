@@ -1,0 +1,12 @@
+@import "~@coreui/coreui/scss/mixins";
+@import "~@coreui/coreui/scss/functions";
+@import "~@coreui/coreui/scss/variables";
+
+.calendar-day {
+  padding: map-get($spacers, 2);
+  text-align: center;
+
+  &.clickable {
+    cursor: pointer;
+  }
+}
