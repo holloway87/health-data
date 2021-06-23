@@ -1,7 +1,7 @@
 <template>
   <div class="todo-list">
     <CRow>
-      <CCol sm="9" lg="9">
+      <CCol sm="8" lg="9">
         <CCard>
           <CCardHeader>Todo list</CCardHeader>
           <CCardBody>

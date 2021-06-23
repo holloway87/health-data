@@ -1,7 +1,7 @@
 <template>
   <div class="habit-tracker">
     <CRow>
-      <CCol sm="9" lg="9">
+      <CCol sm="8" lg="9">
         <CCard>
           <CCardHeader>Habit tracker</CCardHeader>
           <CCardBody>
